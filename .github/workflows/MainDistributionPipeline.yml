@@ -9,6 +9,8 @@
 #
 name: Main Extension Distribution Pipeline
 on:
+  push:
+    branches: [ main ]
   workflow_dispatch:
 
 concurrency:
